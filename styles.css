@@ -10649,7 +10649,7 @@ body {
   font-weight: bold;
 } /**
  * @author zhixin wen <wenzhixin2010@gmail.com>
- * version: 1.20.1
+ * version: 1.20.0
  * https://github.com/wenzhixin/bootstrap-table/
  */
 .bootstrap-table .fixed-table-toolbar::after {
@@ -10698,7 +10698,7 @@ body {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 1.4286;
+  line-height: 1.428571429;
 }
 
 .bootstrap-table .fixed-table-toolbar .columns-left {
@@ -10887,7 +10887,7 @@ body {
   content: "";
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
-  animation-name: loading;
+  animation-name: LOADING;
   background: #212529;
   border-radius: 50%;
   display: block;
@@ -10959,11 +10959,11 @@ body {
 }
 
 .bootstrap-table .fixed-table-pagination > .pagination ul.pagination li.page-intermediate a::before {
-  content: "\2B05";
+  content: '\2B05';
 }
 
 .bootstrap-table .fixed-table-pagination > .pagination ul.pagination li.page-intermediate a::after {
-  content: "\27A1";
+  content: '\27A1';
 }
 
 .bootstrap-table .fixed-table-pagination > .pagination ul.pagination li.disabled a {
@@ -11009,7 +11009,7 @@ div.fixed-table-scroll-outer {
   overflow: hidden;
 }
 
-@keyframes loading {
+@keyframes LOADING {
   0% {
     opacity: 0;
   }
